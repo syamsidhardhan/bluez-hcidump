@@ -1,3 +1,9 @@
+ver 2.1:
+	Add support for decoding OBEX Action command.
+	Add support for decoding SMP commands.
+	Add support for decoding ATT commands.
+	Add support for missing LE decoding.
+
 ver 2.0:
 	Add support for decoding AMP events.
 	Add support for decoding AMP commands.
