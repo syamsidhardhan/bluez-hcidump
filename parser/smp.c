@@ -31,10 +31,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <sys/types.h>
-#include <netinet/in.h>
-
-#include "parser.h"
+#include "parser/parser.h"
 
 /* SMP command codes */
 #define SMP_CMD_PAIRING_REQ	0x01

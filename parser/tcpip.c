@@ -30,7 +30,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/types.h>
 
 #include <net/ethernet.h>
 #include <netinet/in.h>
@@ -40,7 +39,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-#include "parser.h"
+#include "parser/parser.h"
 
 void arp_dump(int level, struct frame *frm)
 {

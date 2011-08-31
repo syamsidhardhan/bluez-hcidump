@@ -32,12 +32,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <sys/types.h>
-#include <netinet/in.h>
-
-#include <bluetooth/bluetooth.h>
-
-#include "parser.h"
+#include "parser/parser.h"
 
 #define CAPI_U8(frm)  (get_u8(frm))
 #define CAPI_U16(frm) (btohs(htons(get_u16(frm))))

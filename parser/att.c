@@ -31,10 +31,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <sys/types.h>
-#include <netinet/in.h>
-
-#include "parser.h"
+#include "parser/parser.h"
 
 #define GATT_PRIM_SVC_UUID		0x2800
 #define GATT_SND_SVC_UUID		0x2801

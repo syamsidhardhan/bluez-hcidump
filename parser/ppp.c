@@ -30,9 +30,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/types.h>
 
-#include "parser.h"
+#include "parser/parser.h"
 
 #define PPP_U8(frm)  (get_u8(frm))
 #define PPP_U16(frm) (btohs(htons(get_u16(frm))))

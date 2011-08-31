@@ -32,10 +32,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#include <sys/types.h>
-#include <netinet/in.h>
-
-#include "parser.h"
+#include "parser/parser.h"
 
 /* ctype entries */
 #define AVC_CTYPE_CONTROL		0x0
